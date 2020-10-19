@@ -47,18 +47,18 @@
       </header><!--/fim Cabecalho -->
 
         <section class="m-5">
-                <h1 class="display-4">Pedidos feitos</h1>
-                
                 <?php 
 
                 $sql = "SELECT * FROM pedidos WHERE nome != ''";
                 $result = mysqli_query($conexao, $sql);
 
                 if(mysqli_num_rows($result) == ''){
-                    echo "<h2>No momento não existe nenhum pedido cadastrado</h2>";
+                    echo "<h2 class='text-center display-4'>No momento não existe nenhum pedido cadastrado</h2>";
                 }else{
                 
                 ?>
+                <h1 class="display-4">Pedidos feitos</h1>
+
                 <table id="example" class="table" cellspacing="0" width="100%" role="grid" style="width: 100%;table-layout:fixed">
                     <thead class="thead-dark"> 
                           <th scope="col"><h2>Código</h2></td>
