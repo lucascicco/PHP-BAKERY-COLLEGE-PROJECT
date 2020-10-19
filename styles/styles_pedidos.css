@@ -1,0 +1,18 @@
+#body{
+    background: #8d6e63;
+}
+
+#tr{
+    height: 100px;
+}
+
+#tr:hover{
+    background-color: #e0e0e0;
+    font-weight: 600;
+}
+
+#tr td {
+    word-wrap:break-word;
+    font-size: 20px;
+}
+

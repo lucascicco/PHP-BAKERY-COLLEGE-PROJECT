@@ -89,7 +89,11 @@
                               if($cadastra == ''){
                               	echo "<p style='color: #ef5350; font-size: 20px; text-align: center';> Ocorreu um erro no cadastro, lamentados.</p>";	
                               }else{
-                                echo "<p style='color: #4caf50; font-size: 20px; text-align: center';> Sucesso ao cadastrar seu pedido, aguarde o retorno da nossa equipe.</p>";	
+                                echo "<p style='color: #4caf50; font-size: 20px; text-align: center';> Sucesso ao cadastrar seu pedido, aguarde o retorno da nossa equipe.</p>";
+                                echo "<script language='javascript'>setTimeout(() => {
+                                  window.location='index.php'
+                                }, 1500)
+                                </script>";		
                             }}?>
                     </div>
                 </div>  
