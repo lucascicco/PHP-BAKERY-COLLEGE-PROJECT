@@ -1,0 +1,14 @@
+#TituloGrande{
+    background-color:#263238;
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 350;
+}
+
+
+#home{
+    height: 750px;
+}

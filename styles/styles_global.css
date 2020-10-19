@@ -1,0 +1,81 @@
+body{
+    background: #8d6e63;
+}
+
+
+footer {
+    background: #8d6e63;
+    padding: 5px;
+}
+
+
+footer p a {
+    color: white;
+    margin: 0px 15px;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+.activeA{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+#telefone{
+    color: white;
+    margin-right: 5px;
+}
+
+#nav-homepage {
+    background-color:#4e342e;
+}
+
+#nav-homepage a, h3 {
+    color: white;
+}
+
+#nav-homepage a {
+    font-size: larger;
+}
+
+#nav-homepage a:hover {
+    font-size: larger;
+    opacity: 0.7;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+#home {
+    background-color:#5d4037;
+}
+
+hr { 
+    background-color: white; height: 2px; margin: 0; border: 0;
+}
+
+.pWhite{
+    color: white;
+    text-align: justify;
+}
+
+#TituloGrande{
+    background-color: #a1887f;
+    color: black;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 350;
+}
+
+label{
+    color: white;
+}
+
+bb{
+    border: 1px  solid red;
+}
+
